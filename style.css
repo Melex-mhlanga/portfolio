@@ -320,6 +320,83 @@ nav ul li a:hover::after{
     background: #ff004f;
 }
 
+/*-----------Testimonials-------------*/
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: whitesmoke;
+    margin-left: 20%;
+    transition: background 0.5s, transform 0.5s;
+}
+
+.sub-title:hover{
+    color: #ff004f;
+    transform: translateY(-10px);
+}
+
+.col-3{
+    flex-basis: 30px;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+
+.col-3 img{
+    width: 100%;
+}
+
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.testimonial{
+    padding-top: 100px;
+    background: rgb(135, 132, 132);
+}
+
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.testimonial .col-3 img{
+    width: 50px;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+
+.col-3 p{
+    font-size: 15px;
+    margin: 12 0;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+.testimonial .col-3 h3{
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
 /*-----------contact-left-------------*/
 
 .contact-left{
